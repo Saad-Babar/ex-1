@@ -1,6 +1,9 @@
 body {
-	overflow-x: hidden;
+    overflow-x: hidden !important;
 }
+
+
+
 .navbar {
 	font-family: poppins;
 	font-weight: 400px;
@@ -13,8 +16,17 @@ body {
 }
 
 .unol_two {
-	margin-left: 655px;
 	font-size: 17px;
+	float: left;
+}
+
+.unol_two {
+    font-size: 17px;
+}
+
+.unol_two li {
+    float: left; /* Add this line to float the list items to the left */
+    margin-right: 10px; /* Optional: Add some margin to create space between the icons */
 }
 
 .unol_four {
@@ -48,6 +60,7 @@ body {
 }
 
 .centtexl {
+	color: #9189FF;
 	margin-top: 200px;
 	font-size: 30px;
 	font-family: poppins;
@@ -83,11 +96,6 @@ body {
 	margin-top: 200px;
 }
 
-.fetures {
-	margin-left: 120px;
-	padding-bottom: 30px;
-}
-
 .centtex3 {
 	font-size: 60px;
 }
@@ -102,16 +110,14 @@ body {
 	font-size: 30px;
 	color: #2D1DFF;
 	padding-top: 60px;
-	margin-left: 80px;
 	padding-bottom: 40px;
 }
 
 #vido {
-	background-image: url(images/videos.jpg);
+	background-image: url(images/vido.jpg);
 	height: 600px;
 	background-size: cover; 
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	margin-top: 100px;
 }
 
@@ -123,7 +129,6 @@ body {
 .fa-play {
 	padding-top: 250px;
 	font-size: 50px;
-	padding-left: 300px;
 }
 
 .dovido {
@@ -177,11 +182,10 @@ body {
 }
 
 .compliment {
-	background-image: url(images/meeting.jpg);
+	background-image: url(images/last.jpg);
 	height: 600px;
 	background-size: cover; 
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	margin-top: 100px;
 	margin-bottom: 40px;
 }
@@ -198,4 +202,31 @@ body {
 
 .icnll {
 	margin-top:50px;
+}
+
+.contbtn {
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #9189ff;
+  color: white;
+}
+
+.contstick {
+	position: relative;
+}
+
+.sticky-element {
+  position: absolute;
+  left: 130px;
+}
+
+.sticky-element1 {
+  position: absolute;
+  left: 0;
+}
+
+.sticky-element2 {
+  position: absolute;
+  left: 0;
 }
