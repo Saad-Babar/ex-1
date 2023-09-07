@@ -1,7 +1,73 @@
-
+/* *{
+	border: 1px solid red;
+} */
 body {
     overflow-x: hidden !important;
 	font-family: 'Poppins', sans-serif;
+}
+
+.fw100 {
+	font-weight: 100;
+}
+.fw200 {
+	font-weight: 200;
+}
+.fw300 {
+	font-weight: 300;
+}
+.fw400 {
+	font-weight: 400;
+}
+.fw500 {
+	font-weight: 500;
+}
+
+.insttt {
+	padding-bottom: 100px;
+}
+
+.hp15 {
+	color:#2D1DFF; 
+	font-size: 45px; 
+	font-weight: 300;
+}
+
+.rm {
+	margin-top:150px;
+}
+
+.mind {
+	font-size: 40px; 
+	margin-top:100px; 
+	font-weight: 300;
+}
+
+.mindp {
+	font-size: 15px; 
+	margin-top: 30px; 
+	color: #7d7d7d;
+}
+
+.compgoal {
+	padding-top: 150px;
+}
+
+.comgol {
+	font-size: 40px; 
+	margin-top:100px; 
+	font-weight: 300;
+}
+
+.comgolp {
+	font-size: 15px; 
+	margin-top: 30px; 
+	color: #7d7d7d;
+}
+
+.hp20 {
+	color:#2D1DFF; 
+	font-size: 45px; 
+	font-weight: 300;
 }
 
 /* a:hover {
@@ -9,6 +75,19 @@ body {
 	transition: 1s;
   } */
 
+.foticon {
+	color: #8d8a8a; 
+	font-weight: 300; 
+	text-decoration: none;
+}
+
+.foticon:hover {
+	text-decoration: none;
+	color: #f2f2f2; 
+	font-weight: 300; 
+	text-decoration: none;
+	transition: 1s;
+}
 
 .navbar {
 	font-family: poppins;
@@ -59,10 +138,13 @@ body {
 .centtex1 {
 	font-size: 20px;
 	font-color: #8d8989;
+	color:#2D1DFF; 
+	font-weight: 400;
 }
 
 .centtex2 {
 	font-size: 80px;
+	font-weight: 200;
 }
 
 .centtexl {
@@ -70,6 +152,7 @@ body {
 	margin-top: 200px;
 	font-size: 20px;
 	font-family: poppins;
+	
 }
 
 .centtexl1 {
@@ -78,8 +161,48 @@ body {
 	font-weight: 200px;
 }
 
+.busitemp {
+	padding-top: 120px; 
+	padding-bottom: 150px;
+}
+
+@media (min-width: 768px) {
+	.busitemp {
+		padding-left: 90px;
+	}
+}
+
+
+
+@media (max-width: 1080px) {
+	.busitemp {
+		padding-left: 70px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.busitemp {
+		padding-left: 200px;
+	}
+}
+
+@media (min-width: 1920px) {
+	.busitemp {
+		padding-left: 180px;
+	}
+}
+
+.instapic {
+	background-image: url(images/calll.jpg); 
+	height: 500px; 
+	width:600px; 
+	border-radius: 10px;
+}
+
+
+
 .mobil {
-	margin-left: 30px;
+	/* margin-left: 30px; */
 	border: 2px solid #6E63FF;
 	border-radius: 10px
 }
@@ -94,7 +217,7 @@ body {
 
 .fettex {
 	font-color: #8d8989; 
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .insta {
@@ -103,6 +226,8 @@ body {
 
 .centtex3 {
 	font-size: 50px;
+	color:#111111; 
+	font-weight: 300;
 }
 
 .ser {
@@ -176,6 +301,10 @@ body {
 	font-size: 17px;
 }
 
+.gpparent {
+	gap: 50px;
+}
+
 .botp {
 	margin-left: 40px;
 	margin-bottom: 40px;
@@ -230,6 +359,30 @@ body {
   border-color: #9189ff;
   color: white;
 }
+
+.contbtn1 {
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #4e42ff;
+  background-color: #4e42ff;
+}
+
+.contbtn1:hover {
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #9189ff;
+  background-color: #9189ff;
+  transition: 1s;
+}
+
+.tophr {
+	background-color:  #7d7d7d;
+}
+
+
+
 
 /* .contstick {
 	position: relative;
