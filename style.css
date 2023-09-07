@@ -231,9 +231,9 @@ body {
   left: 0;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1081px) {
 	.gp {
-		margin-left: 140px;
+		margin-left: 130px;
 	}
 }
 
