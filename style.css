@@ -30,7 +30,7 @@ body {
 }
 
 .unol_four {
-	margin-left: 550px;
+	/* margin-left: 550px; */
 	font-size: 17px;
 }
 
@@ -121,6 +121,14 @@ body {
 	margin-top: 100px;
 }
 
+#vido2 {
+	background-image: url(images/last.jpg);
+	height: 600px;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	margin-top: 100px;
+}
+
 .vidot {
 	padding-top: 20px;
 	font-size: 50px;
@@ -200,6 +208,12 @@ body {
 	padding-top: 40px;
 }
 
+.icnl1 {
+	color: white;
+	padding-left: 20px;
+	padding-top: 40px;
+}
+
 .icnll {
 	margin-top:50px;
 }
@@ -212,7 +226,7 @@ body {
   color: white;
 }
 
-.contstick {
+/* .contstick {
 	position: relative;
 }
 
@@ -229,7 +243,7 @@ body {
 .sticky-element2 {
   position: absolute;
   left: 0;
-}
+} */
 
 @media (min-width: 1081px) {
 	.gp {
@@ -250,3 +264,35 @@ body {
 }
 
 
+/* Add your custom styles here */
+
+/* Make the footer background dark and text white */
+.ftr {
+    background-color: #111111;
+    color: white;
+}
+
+/* Add padding to the top and bottom of the footer */
+.ftr p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Center-align text in the footer */
+.text-center {
+    text-align: center;
+}
+
+/* Adjust the font size for small screens */
+@media (max-width: 768px) {
+    .ftr p {
+        font-size: 14px;
+    }
+}
+
+/* Optional: Add responsiveness for columns within the footer */
+@media (max-width: 768px) {
+    .col-lg-3 {
+        flex-basis: 50%;
+    }
+}
