@@ -231,14 +231,22 @@ body {
   left: 0;
 }
 
-@media all and (min-width: 1920px) {
+@media (min-width: 1080px) {
+	.gp {
+		margin-left: 140px;
+	}
+}
+
+@media (max-width: 1080px) {
+	.gpparent {
+		padding-left: 70px;
+	}
+}
+
+@media (min-width: 1920px) {
   .gp {
   	margin-left: 260px;
   }
 }
 
-@media all and (min-width: 1080px) {
-  .gp {
-  	margin-left: 140px;
-  }
-}
+
