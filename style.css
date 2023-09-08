@@ -401,6 +401,37 @@ body {
 	font-size: 15px;
 }
 
+.lnab1 {
+	    padding-left: 40px;
+		font-weight: 400; 
+		font-size: 15px;
+}
+
+@media (min-width: 1024px) {
+	.lnab1 {
+		padding-left: 40px;
+		font-weight: 400; 
+		font-size: 15px;
+	}
+}
+@media (min-width: 1200px) {
+	.lnab1 {
+		padding-left: 130px;
+		font-weight: 400; 
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.lnab1 {
+		padding-left: 130px;
+		font-weight: 400; 
+		font-size: 15px;
+	}
+}
+
+
+
 #vido2 {
 	background-image: url(images/last.jpg);
 	height: 600px;
@@ -544,6 +575,7 @@ body {
 
 
 .contbtn1 {
+	margin-top: 40px;
 	padding: 14px 28px;
 	font-size: 16px;
 	cursor: pointer;
