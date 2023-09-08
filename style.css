@@ -6,6 +6,10 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+.mmalm {
+	height: 100%;
+}
+
 .topimgg {
 	background-image: url(images/emptop.jpg);  
 	background-size: cover; 
@@ -179,7 +183,6 @@ body {
 
 .centtexl {
 	color: #9189FF;
-	margin-top: 200px;
 	font-size: 20px;
 	font-family: poppins;
 	
@@ -204,15 +207,41 @@ body {
 
 
 
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
 	.busitemp {
 		padding-left: 70px;
+	}
+} */
+
+@media (min-width: 1080px) {
+	.busitemp {
+		padding-left: 0px;
+	}
+}
+@media (min-width: 1080px) {
+	.busitemp1 {
+		padding-left: 70px;
+	}
+}
+@media (min-width: 1080px) {
+	.busitemp2 {
+		padding-left: 100px;
 	}
 }
 
 @media (min-width: 1440px) {
 	.busitemp {
-		padding-left: 200px;
+		padding-left: 0px;
+	}
+}
+@media (min-width: 1440px) {
+	.busitemp1 {
+		padding-left: 100px;
+	}
+}
+@media (min-width: 1440px) {
+	.busitemp2 {
+		padding-left: 100px;
 	}
 }
 
@@ -221,6 +250,55 @@ body {
 		padding-left: 180px;
 	}
 }
+@media (min-width: 1920px) {
+	.busitemp0 {
+		padding-left: 100px;
+	}
+}
+@media (min-width: 1920px) {
+	.busitemp1 {
+		padding-left: 60px;
+	}
+}
+@media (min-width: 1920px) {
+	.busitemp2 {
+		padding-left: 0px;
+	}
+}
+
+@media (min-width: 2560px) {
+	.busitemp {
+		padding-left: 400px;
+	}
+}
+/* @media (min-width: 2560px) {
+	.busitemp0 {
+		padding-left: 100px;
+	}
+} */
+@media (min-width: 2560px) {
+	.busitemp1 {
+		padding-left: 0px;
+	}
+}
+@media (min-width: 2560px) {
+	.busitemp2 {
+		padding-left: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) and (max-width:887px) {
 	.marst {
@@ -295,9 +373,9 @@ body {
 	padding-top: 10px;
 }
 
-.pato {
+/* .pato {
 	padding-top: 100px;
-}
+} */
 
 .tal {
 	text-align: left;
@@ -334,11 +412,10 @@ body {
 .vidot {
 	font-weight: 300; 
 	font-size: 45px;
-	padding-top: 20px;
+	
 }
 
 .fa-play {
-	padding-top: 250px;
 	font-size: 50px;
 }
 
@@ -443,12 +520,26 @@ body {
 }
 
 .contbtn {
-	padding: 14px 28px;
-	font-size: 16px;
+	margin-top: 40px;
+	padding: 20px 40px;
+	font-size: 17px;
 	cursor: pointer;
-	border-color: #9189ff;
+	border: 2px solid #716ada;
+	border-color: #716ada;
 	color: #111111;
 }
+
+.contbtn:hover {
+	padding: 20px 40px;
+	font-size: 17px;
+	cursor: pointer;
+	border: 2px solid #9189ff;
+	border-color: #9189ff;
+	color: #111111;
+	transition: 1s;
+}
+
+
 
 .contbtn1 {
 	padding: 14px 28px;
@@ -468,6 +559,7 @@ body {
 }
 
 .tophr {
+	margin-top: 1px;
 	background-color:  #7d7d7d;
 }
 
@@ -493,6 +585,19 @@ body {
 	left: 0;
 } */
 
+@media (min-width: 768px) {
+	.gp {
+		margin-left: 18px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.gp {
+		margin-left: 58px;
+	}
+}
+
+
 @media (min-width: 1081px) {
 	.gp {
 		margin-left: 130px;
@@ -505,9 +610,21 @@ body {
 	}
 }
 
+@media (min-width: 1440px) {
+	.gp {
+		margin-left: 170px;
+	}
+}
+
 @media (min-width: 1920px) {
 	.gp {
 		margin-left: 260px;
+	}
+}
+
+@media (min-width: 2560px) {
+	.gp {
+		margin-left: 360px;
 	}
 }
 
