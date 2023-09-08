@@ -360,6 +360,7 @@ body {
 #vido {
 	background-image: url(images/vido.jpg);
 	height: 600px;
+	background-position: center;
 	background-size: cover; 
 	background-repeat: no-repeat;
 	margin-top: 100px;
@@ -403,6 +404,7 @@ body {
 #vido2 {
 	background-image: url(images/last.jpg);
 	height: 600px;
+	background-position: center;
 	background-size: cover; 
 	background-repeat: no-repeat;
 	margin-top: 100px;
